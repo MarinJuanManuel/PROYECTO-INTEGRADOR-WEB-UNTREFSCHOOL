@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulario de contacto</h1>
+      <p>Deje sus dudas o consultas. Nos pondremos en contacto con usted!</p>
+      <form
+        action="https://formsubmit.co/your@email.com"
+        method="post"
+        autocomplete="off"
+      >
+        <label for="nombre">Nombre: </label>
+        <input type="hidden" name="sitio" value="localhost" />
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          class="form-control"
+          placeholder="Nombre"
+          required
+        />
+        <label for="apellido">Apellido: </label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          class="form-control"
+          placeholder="Apellido"
+          required
+        />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Direccion de correo"
+          required
+        />
+        <label for="comentario">Comentario: </label>
+        <textarea
+          placeholder="Realice un comentario"
+          id="comentario"
+          class="form-control"
+          name="comentario"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <button type="submit">Enviar</button>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://marinjuanmanuel.github.io/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL/"
+        />
+      </form>
+    </div>
+  </body>
+</html>
