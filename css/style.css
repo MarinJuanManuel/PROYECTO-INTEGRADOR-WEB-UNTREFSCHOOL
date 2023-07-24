@@ -23,7 +23,7 @@ p {
 header {
     height: 400px;
     background-color: #1f8a70;
-    background-image: url(/img/portada.jpg);
+    background-image: url(../img/portada.jpg);
     background-size: cover;
     background-position: center;
     opacity: .8;
